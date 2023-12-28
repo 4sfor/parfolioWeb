@@ -1,0 +1,125 @@
+body{
+    background-image: url(/photo/fon.jpg);
+}
+.wrapper {
+    max-width: 1440px;
+    background:white;
+    margin: 0  auto;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.menu{
+    background-color: black;
+    position: sticky;
+    top: 0;
+    border-bottom-right-radius: 10%;
+    border-bottom-left-radius: 10%;
+}
+.menu a{
+    text-align: center;
+    color: white;
+    padding-left: 2%;
+    padding-right: 2%;
+    border-radius: 10%;
+    font-size: 24px;
+    text-decoration: none;
+
+}
+.menu a:hover{
+    background-color: white;
+    color: black;
+}
+
+.aboutMe {
+    display: flex;
+    flex-wrap: wrap;
+
+       
+}
+
+.textAboutMe{
+    display: flex;
+    flex-direction: column;
+    font-size:20px;
+    font-family:'Courier New', Courier, monospace;
+    margin:5%;
+}
+
+.photo{
+    border-radius: 60%;
+    margin: 5%;
+    animation: gridi 6s ease  infinite;
+    background: linear-gradient(270deg, #12ecda, #9412ec, #12ec7a);
+    background-size: 600% 600%;
+    height: fit-content;
+}
+
+@keyframes gridi{
+    0%{
+        background-position:0% 50%
+
+    }
+    50%{
+        background-position:100% 50%
+    }
+    100%{
+        background-position:20% 50%
+    }
+}
+
+.photo img{
+    max-width: 400px;
+}
+
+.codeAbout { 
+    max-width: 400px; 
+    margin: 5%; 
+    gap:10px ;
+    padding: 10px;
+    border-radius: 20px;
+    white-space: pre-wrap;
+    color:black;
+    font-family: monospace;
+    font-size: 24px; 
+    border: 1px solid black;
+}
+
+.skills{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top:5% ;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.skills th{
+    font-size: 24px;
+    text-align: left;
+}
+
+.skills td{
+    text-align: center;
+    font-size: 16px;
+    border: 1px solid black;
+    border-radius: 70%;
+    padding: 10px;
+    
+}
+
+.skills td:hover{
+    background-color: aqua;
+    transform: scale(1.5);
+}
+
+.soft table{
+    border-spacing: 20px;
+}
+
+.hard table{
+    border-spacing: 20px;
+}
+
