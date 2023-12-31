@@ -1,5 +1,5 @@
 body{
-    background-image: url(/photo/fon.jpg);
+    background-image: url(./photo/fon.jpg);
 }
 .wrapper {
     max-width: 1440px;
